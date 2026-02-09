@@ -82,7 +82,7 @@ const ProjectDetail = () => {
               rel="noreferrer"
               className="btn btn-ghost"
             >
-              Demo
+              {project.demoLabel || "Demo"}
             </a>
           ) : null}
         </div>

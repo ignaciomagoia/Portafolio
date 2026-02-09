@@ -206,8 +206,9 @@ export const projects = [
       "Implementación de carrito global y checkout por WhatsApp",
       "Deploy y configuración en Vercel",
     ],
-    repoUrl: "PEGAR_URL_REPO_AQUI",
-    demoUrl: "",
+    repoUrl: "https://github.com/ignaciomagoia/ft_calcos2",
+    demoUrl: "https://ft-calcos2.vercel.app",
+    demoLabel: "Sitio oficial",
     images: [
       {
         src: "/screenshots/ft-calcos-tienda-online/panelprincipal.jpeg",

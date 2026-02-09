@@ -78,7 +78,7 @@ const ProjectSlide = ({ project }) => {
                 className="btn btn-ghost"
                 aria-label="Demo del proyecto"
               >
-                Demo
+                {project.demoLabel || "Demo"}
               </a>
             ) : null}
             <Link
