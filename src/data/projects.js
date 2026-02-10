@@ -254,4 +254,89 @@ export const projects = [
       },
     ],
   },
+  {
+    slug: "lms-cursos-go-react",
+    title: "LMS - Gestion de Cursos (Go + React)",
+    tagline: "Sistema de cursos con autenticacion JWT, busqueda, inscripcion y panel admin.",
+    description:
+      "Sistema tipo LMS desarrollado como practico integrador: backend en Go y frontend en React. Incluye login con JWT, roles (alumno/administrador), listado y busqueda de cursos, vista de detalle e inscripcion.",
+    stack: ["Go", "React", "JWT", "GORM", "SQL", "Docker (si aplica)", "MVC"],
+    highlights: [
+      "Login con JWT y roles (alumno / administrador)",
+      "Home con listado de cursos disponibles",
+      "Busqueda por palabra clave o categoria",
+      "Detalle del curso (descripcion, instructor, duracion, requisitos)",
+      "Inscripcion a cursos + mensaje de confirmacion",
+      "Mis cursos para usuario alumno",
+      "Admin: crear/editar/eliminar cursos",
+      "Password hashing (no guardar contraseñas en plano)",
+      "Conexion a DB con GORM (si aplica)",
+      "Docker compose para correr todo (si aplica)",
+    ],
+    architecture: [
+      "Frontend en React consume API REST en Go via HTTP",
+      "Backend con estructura MVC (controllers, services, repositories/dao, domain/DTOs)",
+      "Autenticacion por token firmado (JWT)",
+      "Persistencia con GORM (si aplica)",
+      "Endpoints para cursos, inscripcion, mis cursos, admin",
+    ],
+    responsibilities: [
+      "Diseno y desarrollo del flujo principal de cursos e inscripciones",
+      "Integracion frontend React con la API de autenticacion y cursos",
+      "Implementacion de validaciones y manejo de roles en pantallas clave",
+      "Soporte en estructura MVC y organizacion del codigo",
+      "Documentacion funcional para uso del sistema y testing manual",
+    ],
+    teamwork: {
+      summary:
+        "Proyecto realizado en equipo (3 integrantes). Mi aporte principal fue: [placeholder para completar].",
+      items: [
+        "Implementacion de endpoints / logica de negocio en Go",
+        "Integracion frontend con API",
+        "Pantallas de listado/busqueda/detalle/inscripcion",
+      ],
+    },
+    repoUrl: "https://github.com/Congo2020/PROYECTO-ARQUI-DE-SOTWARE-1-CURSOS-MEJORADO",
+    demoUrl: "",
+    images: [
+      {
+        src: "/screenshots/lms-cursos-go-react/panel-principal.jpeg",
+        label: "Home + listado",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/curso.jpeg",
+        label: "Detalle del curso",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/cursocargado.jpeg",
+        label: "Inscripcion confirmada",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/paneladmin.jpeg",
+        label: "Panel admin",
+      },
+    ],
+    gallery: [
+      {
+        src: "/screenshots/lms-cursos-go-react/panel-principal.jpeg",
+        label: "Home + listado",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/curso.jpeg",
+        label: "Detalle del curso",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/cursocargado.jpeg",
+        label: "Inscripcion confirmada",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/paneladmin.jpeg",
+        label: "Panel admin",
+      },
+      {
+        src: "/screenshots/lms-cursos-go-react/agregarcurso.jpeg",
+        label: "Admin crear curso",
+      },
+    ],
+  },
 ];

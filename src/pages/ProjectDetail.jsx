@@ -136,6 +136,27 @@ const ProjectDetail = () => {
         </div>
       </div>
 
+      {project.teamwork ? (
+        <section className="mt-6">
+          <div className="card space-y-3">
+            <h2 className="section-title">Trabajo en equipo</h2>
+            <p className="text-sm leading-relaxed text-slate-300">
+              {project.teamwork.summary}
+            </p>
+            {project.teamwork.items?.length ? (
+              <ul className="space-y-2 text-sm text-slate-300">
+                {project.teamwork.items.map((item) => (
+                  <li key={item} className="flex gap-2">
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-400" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
+
       <section className="mt-12">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <h2 className="section-title">Screenshots</h2>
