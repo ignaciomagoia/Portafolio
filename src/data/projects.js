@@ -211,7 +211,7 @@ export const projects = [
     demoLabel: "Sitio oficial",
     images: [
       {
-        src: "/screenshots/ft-calcos-tienda-online/panelprincipal.jpeg",
+        src: "/screenshots/ft-calcos-tienda-online/panelprincipal.png",
         label: "Landing",
       },
       {
@@ -229,7 +229,7 @@ export const projects = [
     ],
     gallery: [
       {
-        src: "/screenshots/ft-calcos-tienda-online/panelprincipal.jpeg",
+        src: "/screenshots/ft-calcos-tienda-online/panelprincipal.png",
         label: "Landing principal",
       },
       {
