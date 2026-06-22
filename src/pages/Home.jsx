@@ -280,8 +280,8 @@ const Home = () => {
                 {copied ? "Copiado" : "Copiar email"}
               </button>
               <a
-                href="/CVIgnacioMagoia2026.pdf"
-                download="CVIgnacioMagoia2026.pdf"
+                href="/IgnacioMagoiaCV.pdf"
+                download="IgnacioMagoiaCV.pdf"
                 className="btn btn-ghost"
                 aria-label="Descargar CV en PDF"
               >
